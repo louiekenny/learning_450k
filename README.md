@@ -6,7 +6,7 @@ I have picked up much of 450k analysis from random places. This will be a compre
 The first step is to learn github.
 
 #adding files to github
-git add $file 
+git add $file   
 git commit -m "$message" 
 git remote add remote add origin "$github_account" #if origin master needs to be changed 
 git push -u origin master  
