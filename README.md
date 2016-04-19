@@ -1,5 +1,5 @@
 #learning_450k
-#overview
+#Overview
 This will be written in the format of a blog style.
 This will be a log of my progress in learning 450k analysis for my master's thesis.
 I have picked up much of 450k analysis from random places. This will be a comprehensive analysis, where everything I know will be put here.
@@ -17,7 +17,7 @@ cd ~/.ssh
 ssh-keygen -t rsa
 ```
 
-Choose a file name and the file created *.pub* contains the key used for adding to the github account settings.
+Choose a file name and the file created \*.pub contains the key used for adding to the github account settings.
 
 
 ##setting up github
