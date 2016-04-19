@@ -9,7 +9,7 @@ My development and analysis platform is arch linux 4.4.5-1 running R 3.2.4 withi
 #Github
 The first step is to learn github. This communication platform is vital to the efficient development of projects, specifically code. The first step is to create a github account. An SSH key should be generated at this point to link the device and your github account.
 
-The openssh package needs to be installed on arch linux.
+The openssh package needs to be installed on arch linux to use the ssh-keygen package.
 
 ```
 mkdir ~/.ssh
@@ -19,13 +19,14 @@ ssh-keygen -t rsa
 
 Choose a file name and the file created \*.pub contains the key used for adding to the github account settings.
 
-
 ##setting up github
 Create a new local folder intended to use for a new github repo
 ```
 mkdir learning_450k  
 cd learning_450k  
-git init  
+git init
+git config --global user.name "username"
+git config --global user.email "github account email"
 ```
 
 ##adding files to github
