@@ -51,4 +51,4 @@ git pull
 git pull will sync the github repo with your local files
 
 #Data wrangling in R
-The gapminder dataset can be used as practice to learn basic data frame manipulation. This is important as most 450k work focuses on large tables. The practice exercise is taken from [a ubc course] (http://stat545.com/block006_care-feeding-data.html). I have attached my R [code] (https://github.com/louiekenny/learning_450k/blob/master/gapminder-practice.R) with comments after following the short ubc intro to data wrangling. You may also run my code and read my comments for a shorted summary of that intro.
+The gapminder dataset can be used as practice to learn basic data frame manipulation. This is important as most 450k work focuses on large tables. The practice exercise is taken from [a ubc course] (http://stat545.com/block006_care-feeding-data.html). I have attached my R [code] (https://github.com/louiekenny/learning_450k/blob/master/gapminder-practice.R) with comments after following the short ubc intro to data wrangling. You may also run my code and read my comments for a shortened summary of that intro.
