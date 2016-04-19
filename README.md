@@ -7,11 +7,11 @@ The first step is to learn github.
 
 #adding files to github
 git add $file   
-git commit -m "$message" 
-git remote add remote add origin "$github_account" #if origin master needs to be changed 
+git commit -m "$message"  
+git remote add remote add origin "$github_account" #if origin master needs to be changed   
 git push -u origin master  
 
 #checking status of github
-git status 
-git log
-git log --oneline
+git status  
+git log  
+git log --oneline  
