@@ -53,7 +53,10 @@ git pull will sync the github repo with your local files
 #Data wrangling in R
 
 ##Dataframe practice
-The gapminder dataset can be used as practice to learn basic data frame manipulation. This is important as most 450k work focuses on large tables. The practice exercise is taken from [a ubc course] (http://stat545.com/block006_care-feeding-data.html). I have attached my R [code] (https://github.com/louiekenny/learning_450k/blob/master/gapminder-practice.R) with comments after following the short ubc intro to data wrangling. You may also run my code and read my comments for a shortened summary of that intro.
+The gapminder dataset can be used as practice to learn basic data frame manipulation. This is important as most 450k work focuses on large tables. The practice exercise is taken from a [ubc course] (http://stat545.com/block006_care-feeding-data.html). I have attached my R [code] (https://github.com/louiekenny/learning_450k/blob/master/gapminder-practice.R) with comments after following the short ubc intro to data wrangling. You may also run my code and read my comments for a shortened summary of that intro.
 
 ##A note on factors
 Understanding the differences between factors and other classes will help you avoid a lot of troubleshooting in the future. This [ubc course] (http://stat545.com/block014_factors.html) provides an indepth intro to understanding these differences and their value in platting and visualization of tables. I have attached my own R [code] (https://github.com/louiekenny/learning_450k/blob/master/factors-practice.R) with comments including mostly only the code portion of that course so that you may follow along.
+
+#Introductory practice using a small expression dataset
+This dataset is taken from a [ubc course] (https://github.com/STAT540-UBC/STAT540-UBC.github.io/blob/master/examples/photoRec/data/GSE4051_MINI.tsv) webpage. The dataset will be explored by the seminar slides of the corresponding UBC 540 class.
