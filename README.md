@@ -4,7 +4,7 @@ This will be written in the format of a blog style.
 This will be a log of my progress in learning 450k analysis for my master's thesis.
 I have picked up much of 450k analysis from random places. This will be a comprehensive analysis, where everything I know will be put here.
 
-My development and analysis platform is arch linux 4.4.5-1 running R 3.2.4 within Nvim 0.1.3 and the Nvim-R package 0.9.3
+This work is analyzed on arch linux 4.4.5-1 running R 3.2.4 within Nvim 0.1.3 and the Nvim-R package 0.9.3
 
 #Github
 The first step is to learn github. This communication platform is vital to the efficient development of projects, specifically code. The first step is to create a github account. An SSH key should be generated at this point to link the device and your github account.
@@ -42,3 +42,6 @@ git status
 git log  
 git log --oneline  
 ```
+
+#data wrangling in R
+The gapminder dataset can be used as practice to learn basic data frame manipulation. This is important as most 450k work focuses on large tables. The practice exercise is taken from [a ubc course] (http://stat545.com/block006_care-feeding-data.html).
