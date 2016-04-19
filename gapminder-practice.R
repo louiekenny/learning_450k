@@ -74,8 +74,5 @@ p <- ggplot(subset(gapminder, country == "Colombia"),
             aes(x = year, y = lifeExp))
 p + geom_point() + geom_smooth(lwd = 1, se = FALSE, method = "lm")
 (minYear <- min(gapminder$year)) #placing brackets around a variable assigning will also print the output
-myFit <- lm(lifeExp ~ I(year ~ minYear), gapminder, subset = country == "Colombia")
+myFit <- lm(lifeExp ~ I(year - minYear), gapminder, subset = country == "Colombia")
 summary(myFit)
-#if the "data = *" option is not available in your function, you can fake it with the with() function
-with(subset(gapminder, subset = country == "Colombia"),
-     cor(lifeExp, gdpPercap))
