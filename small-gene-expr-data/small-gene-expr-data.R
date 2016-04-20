@@ -67,3 +67,17 @@ For each quantitative variable, what are the extremes? How about average or medi
 summary(prDat$crabHammer)
 summary(prDat$eggBomb)
 summary(prDat$poisonFang)
+
+#Create a new data.frame called weeDat only containing observations for which expression of poisonFang is above 7.5.
+weeDat <- subset(prDat, subset = poisonFang > 7.5)
+
+#For how many observations poisonFang > 7.5? How do they break down by genotype and developmental stage?
+nrow(weeDat)
+table(weeDat$gType, weeDat$devStage)
+
+#Print the observations with row names “Sample_16” and “Sample_38” to screen, showing only the 3 gene expression variables.
+zeeDat <- subset(prDat, subset = sidNum == "16" | sidNum == "38", select = c(eggBomb, crabHammer, poisonFang))
+zeeDat
+
+#Which samples have expression of eggBomb less than the 0.10 quantile?
+veeDat <- subset(prDat, subset = eggBomb <)
