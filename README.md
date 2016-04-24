@@ -60,3 +60,6 @@ Understanding the differences between factors and other classes will help you av
 
 #Introductory practice using a small expression dataset
 This dataset is taken from a [ubc course] (https://github.com/STAT540-UBC/STAT540-UBC.github.io/blob/master/examples/photoRec/data/GSE4051_MINI.tsv) webpage. The dataset will be explored by the [seminar] (https://stat540-ubc.github.io/seminars/sm01b_gitIntro-basic-data-exploration.html) slides of the corresponding UBC 540 class.
+
+##A side on lists, matrices, and dataframes
+This short side, although tedious and dry, shows the differences, but more importantly the similarities of lists, matrices, and dataframes. This secion shows the commands in which manipulation and indexing of lists, matrices, and dataframes are more common than thought. Attached is my [code] (https://github.com/louiekenny/learning_450k/blob/master/classes-practice.R) after following the following [ubc course] (http://stat545.com/block004_basic-r-objects.html).
