@@ -66,3 +66,6 @@ This short side, although tedious and dry, shows the differences, but more impor
 
 #Introduction to R Graphics
 The exercise for plotting using ggplot found [here] (https://stat540-ubc.github.io/seminars/sm03b_ggplot2.html) is a useful introduction into plotting some of the most used plots for 450k data. You may follow my [code] (https://github.com/louiekenny/learning_450k/blob/master/graphics-exploration/r-graphics-practice.R) for a shortened version with comments.
+
+#Data Aggregation
+An essential step into data analysis in 450k is the ability to manipulate dataframes and summarize key summary statistics. This section uses built-in R functions to achieve this end. My [code] () follows the lesson from the ubc stat 450 [site] (https://stat540-ubc.github.io/seminars/sm04a_dataAggTwoGrp.html).
