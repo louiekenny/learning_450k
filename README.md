@@ -2,7 +2,7 @@
 #Overview
 This will be written in the format of a blog style.
 This will be a log of my progress in learning 450k analysis for my master's thesis.
-I have picked up much of 450k analysis from random places. This will be a comprehensive analysis, where everything I know will be put here.
+I have picked up much of 450k analysis from random places. This will be a comprehensive analysis, where everything I know will be put here. I am following a stat ubc course on bioinfromatic analysis of biological data found [here] (https://stat540-ubc.github.io/subpages/seminars.html).
 
 This work is analyzed on arch linux 4.4.5-1 running R 3.2.4 within Nvim 0.1.3 and the Nvim-R package 0.9.3
 
@@ -63,3 +63,6 @@ This dataset is taken from a [ubc course] (https://github.com/STAT540-UBC/STAT54
 
 ##A side on lists, matrices, and dataframes
 This short side, although tedious and dry, shows the differences, but more importantly the similarities of lists, matrices, and dataframes. This secion shows the commands in which manipulation and indexing of lists, matrices, and dataframes are more common than thought. Attached is my [code] (https://github.com/louiekenny/learning_450k/blob/master/classes-practice.R) after following the following [ubc course] (http://stat545.com/block004_basic-r-objects.html).
+
+#Introduction to R Graphics
+The exercise for plotting using ggplot found [here] (https://stat540-ubc.github.io/seminars/sm03b_ggplot2.html) is a useful introduction into plotting some of the most used plots for 450k data. You may follow my [code] () for a shortened version with comments.
